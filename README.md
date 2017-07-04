@@ -27,7 +27,7 @@ r=6 Every time TRIG is pressed
 3) Press `SELECT EXIT` to resume to normal operation.
  
 ## Wire the arduino
-1) Wire up the arduino by stripping an IEEE-488 cable and hooking up the wires to the arduino according to the following. You can find the cable pinout on Wikipedia.
+1) Wire up the arduino by stripping an IEEE-488 cable and hooking up the wires to the Arduino according to the following. You can find the cable pinout on Wikipedia. Connect all the IEEE-488 grounds together and connect them to one of the ground pins on the Arduino.
 ```
 #define EOI  A5    // 05  End-or-Identify
 #define DAV  A4    // 06  Data Valid
